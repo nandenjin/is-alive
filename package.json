@@ -1,0 +1,8 @@
+{
+  "name": "@nandenjin/nandenjin",
+  "version": "0.0.0",
+  "workspaces": ["packages/*"],
+  "author": "Kazumi Inada <hello@nandenjin.com>",
+  "license": "UNLICENSED",
+  "private": "true"
+}

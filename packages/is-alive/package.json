@@ -1,0 +1,14 @@
+{
+  "name": "@nandenjin/is-alive",
+  "version": "0.0.0",
+  "description": "Reserches that nandenjin is alive or not",
+  "main": "build/index.js",
+  "repository": "https://github.com/nandenjin/nandenjin.git",
+  "author": "Kazumi Inada <hello@nandenjin.com>",
+  "license": "UNLICENSED",
+  "private": true,
+  "dependencies": {
+    "ts-node": "^8.10.2",
+    "typescript": "^3.9.7"
+  }
+}
