@@ -1,5 +1,5 @@
 {
-  "name": "@nandenjin/nandenjin",
+  "name": "@nandenjin/is-alive-wrapper",
   "version": "0.0.0",
   "workspaces": ["packages/*"],
   "author": "Kazumi Inada <hello@nandenjin.com>",

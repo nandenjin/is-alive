@@ -3,10 +3,15 @@
   "version": "0.0.0",
   "description": "Reserches that nandenjin is alive or not",
   "main": "build/index.js",
-  "repository": "https://github.com/nandenjin/nandenjin.git",
+  "bin": "build/index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/nandenjin/is-alive.git",
+    "directory": "packages/is-alive"
+  },
   "author": "Kazumi Inada <hello@nandenjin.com>",
   "license": "UNLICENSED",
-  "private": true,
+  "scripts": {
   "dependencies": {
     "ts-node": "^8.10.2",
     "typescript": "^3.9.7"
