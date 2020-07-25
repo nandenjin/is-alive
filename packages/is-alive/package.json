@@ -13,7 +13,9 @@
   "license": "UNLICENSED",
   "scripts": {
     "build": "tsc",
-    "start": "ts-node src/index.ts"
+    "start": "ts-node src/index.ts",
+    "lint": "eslint . --ext ts,js",
+    "lintfix": "eslint . --ext ts,js --fix"
   },
   "dependencies": {
     "ts-node": "^8.10.2",
