@@ -18,10 +18,13 @@
     "lintfix": "eslint . --ext ts,js --fix"
   },
   "dependencies": {
+    "dotenv": "^8.2.0",
     "ts-node": "^8.10.2",
+    "twitter": "^1.7.1",
     "typescript": "^3.9.7"
   },
   "devDependencies": {
-    "@types/node": "^14.0.25"
+    "@types/node": "^14.0.25",
+    "@types/twitter": "^1.7.0"
   }
 }
