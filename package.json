@@ -7,7 +7,7 @@
   "scripts": {
     "lint": "run-p lint:*",
     "lint:is-alive": "yarn workspace @nandenjin/is-alive lint",
-    "format": "prettier --write **/*.{md,ts,js}"
+    "format": "prettier --write **/*.{md,ts,js,yml}"
   },
   "author": "Kazumi Inada <hello@nandenjin.com>",
   "license": "UNLICENSED",
@@ -29,6 +29,6 @@
   },
   "lint-staged": {
     "*.{js,ts}": "eslint --cache --fix",
-    "*.{md,ts,js}": "prettier --write"
+    "*.{md,ts,js,yml}": "prettier --write"
   }
 }
