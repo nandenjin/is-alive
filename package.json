@@ -5,7 +5,7 @@
     "packages/*"
   ],
   "scripts": {
-    "format": "prettier --write **/*.{md,ts,js,yaml,yml}"
+    "format": "prettier --write **/*.{md,ts,js}"
   },
   "author": "Kazumi Inada <hello@nandenjin.com>",
   "license": "UNLICENSED",
