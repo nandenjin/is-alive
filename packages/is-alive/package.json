@@ -13,18 +13,20 @@
   "license": "UNLICENSED",
   "scripts": {
     "build": "tsc",
-    "start": "ts-node src/index.ts",
+    "start": "node build/index.js",
+    "dev": "ts-node src/index.ts",
     "lint": "eslint . --ext ts,js",
-    "lintfix": "eslint . --ext ts,js --fix"
+    "lintfix": "eslint . --ext ts,js --fix",
+    "prepublish": "npm run build"
   },
   "dependencies": {
     "dotenv": "^8.2.0",
-    "ts-node": "^8.10.2",
-    "twitter": "^1.7.1",
-    "typescript": "^3.9.7"
+    "twitter": "^1.7.1"
   },
   "devDependencies": {
     "@types/node": "^14.0.25",
-    "@types/twitter": "^1.7.0"
+    "@types/twitter": "^1.7.0",
+    "ts-node": "^8.10.2",
+    "typescript": "^3.9.7"
   }
 }
